@@ -112,6 +112,8 @@ input, select { caret-color: var(--accent); }
 .security-visual { position: relative; height: 392px; overflow: clip; }
 .security-visual > img { position: absolute; left: 50%; top: -24px; transform: translateX(-50%); width: 440px; height: 440px; object-fit: cover; }
 .journey { padding-block: 48px; }
+.journey > .section-heading { align-items: center; text-align: center; }
+.journey > .section-heading > .badge { align-self: center; }
 .journey-steps { position: relative; display: flex; justify-content: space-between; gap: 24px; margin: 32px 0 0; padding: 0; list-style: none; }
 .journey-connection { position: absolute; top: 0; left: 0; width: 100%; height: 56px; pointer-events: none; }
 .svg-fit { position: absolute; inset: 0; overflow: clip; direction: ltr; }
