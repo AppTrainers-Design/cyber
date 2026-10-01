@@ -172,6 +172,10 @@ Primary buttons have a red fill, fine matching border and minimum height (48px);
 
 Course cards use dark diagonal gradients and a fine border. Every card gains a red border, tinted gradient and subtle glow only during mouse hover, then returns to its neutral style when the pointer leaves. Border width and padding stay constant to avoid movement, and touch devices keep the neutral card style. Course actions have a minimum target height (24px); selecting one fills the matching form option and focuses the name field.
 
+### Course catalogue
+
+Pill tabs (minimum height (44px)) follow the ARIA tabs pattern; the selected tab takes the accent border, the `secondary-hover` fill and an accent count pill. Panels reuse the two-column course grid and course card: the course code sits in the number slot, the English title and tags use muted caption text, and a level/hours/labs row uses `accent-dark` dividers. Below (360px) the level takes its own line.
+
 ### Inputs / Fields
 
 Fields are dark raised surfaces with leading icons and a fine border. Focus adds a red border and outline; errors add text beneath the field and `aria-invalid`. Email entry uses LTR characters with right alignment. With the endpoint empty, valid submission shows honest unavailable feedback and performs no POST or persistence.

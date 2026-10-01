@@ -17,7 +17,8 @@ Implement the supplied Arabic cybersecurity training landing page from Figma in 
 ## Capabilities and Constraints
 
 - Arabic content and right-to-left reading order.
-- Navigation, four learning paths, applied learning, learning journey, registration and FAQs from the supplied design.
+- Navigation, four learning tracks (Red Team, Blue Team, Purple Team, GRC), a tabbed course catalogue (Foundations, Red Team, Blue Team, Advanced, GRC; 24 courses), applied learning, learning journey, registration and FAQs.
+- Hero copy, statistics, track details and course data come from the user-supplied `Untitled document.pdf` (2026-10-01). The user asked to change data only, not the design. GRC-301 has no hours in the source, so its hours stay omitted until supplied.
 - The user confirmed there is currently no registration API. Validate the form locally, provide honest unavailable feedback, and leave the submission integration ready to configure. Do not claim a request was submitted.
 - No invented prices, testimonials, credentials, contact details or statistics.
 

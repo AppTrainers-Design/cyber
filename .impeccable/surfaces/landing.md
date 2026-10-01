@@ -9,7 +9,9 @@ User-approved branding update: use a transparent version of the supplied `assets
 
 First viewport: right-aligned Arabic cybersecurity headline and two actions, with the original red hacker illustration to the left on desktop/tablet and below the copy on mobile. Preserve the Figma section badges despite generic detector preferences.
 
-Visitor path: introduction, practical benefits, four learning paths, applied learning, three journey steps, enquiry form, FAQs, footer. Path actions choose the associated option in the form.
+Visitor path: introduction, practical benefits, four learning tracks, course catalogue, applied learning, three journey steps, enquiry form, FAQs, footer. Track actions choose the associated option in the form.
+
+Content update (2026-10-01): the user supplied `Untitled document.pdf` and asked to change data only, keeping the design. Track cards keep the Figma card and add the track details as body-small text. The catalogue reuses the section heading, card grid and course card, with pill tabs (Foundations default) showing per-tab counts.
 
 Interaction: navigation anchors, accessible compact menu, expandable FAQs, input validation, clear unavailable registration feedback until an API is configured. All learning path cards are neutral by default; the red border, tinted gradient and glow appear only during mouse hover and clear on pointer leave. Do not send or persist personal data without a configured endpoint.
 

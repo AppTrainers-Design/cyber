@@ -71,6 +71,35 @@ document.querySelectorAll(".svg-fit").forEach((element) => {
   fitSvgArtwork(element);
 });
 
+// Course catalogue tabs; in RTL the next tab sits to the left.
+const courseTabs = [...document.querySelectorAll(".course-tab")];
+
+function selectCourseTab(tab, moveFocus = false) {
+  courseTabs.forEach((item) => {
+    const selected = item === tab;
+    item.setAttribute("aria-selected", String(selected));
+    item.tabIndex = selected ? 0 : -1;
+    document.getElementById(item.getAttribute("aria-controls")).hidden = !selected;
+  });
+  if (moveFocus) tab.focus();
+}
+
+courseTabs.forEach((tab, index) => {
+  tab.addEventListener("click", () => selectCourseTab(tab));
+  tab.addEventListener("keydown", (event) => {
+    const last = courseTabs.length - 1;
+    const target = {
+      ArrowLeft: courseTabs[index === last ? 0 : index + 1],
+      ArrowRight: courseTabs[index === 0 ? last : index - 1],
+      Home: courseTabs[0],
+      End: courseTabs[last],
+    }[event.key];
+    if (!target) return;
+    event.preventDefault();
+    selectCourseTab(target, true);
+  });
+});
+
 const form = document.querySelector("#registration-form");
 const fullName = form.elements.full_name;
 const email = form.elements.email;
