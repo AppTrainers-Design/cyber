@@ -1,0 +1,6 @@
+{
+  "origin": "User-supplied local logo",
+  "source": "assets/VISION 3020.png",
+  "sourceSha256": "d3dedd41e0995e83c1046e7bd5170d5fd1e45b4719df2ea49cd73d867fdc6366",
+  "edits": "Original PNG is unchanged. The companion vision-3020-white.svg embeds the original image and recolors navy to white with an SVG color matrix while preserving red and alpha."
+}

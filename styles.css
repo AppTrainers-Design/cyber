@@ -43,7 +43,6 @@ input, select { caret-color: var(--accent); }
 .icon { position: relative; display: inline-block; width: 48px; height: 48px; flex: 0 0 auto; }
 /* Keep the original SVG root dimensions; scale its wrapper's visual content. */
 .icon img { position: absolute; top: 50%; left: 50%; max-width: none; transform: translate(-50%, -50%) scale(var(--icon-scale, 1)); }
-.icon-36, .icon-brand { width: 36px; height: 36px; --icon-scale: .75; }
 .icon-28 { width: 28px; height: 28px; --icon-scale: .5833333333; }
 .icon-20 { width: 20px; height: 20px; --icon-scale: .4166666667; }
 .icon-16 { width: 16px; height: 16px; --icon-scale: .3333333333; }
@@ -53,7 +52,8 @@ input, select { caret-color: var(--accent); }
 .button-secondary { border-color: var(--accent-dark); background: var(--background); box-shadow: none; }
 .button-secondary:hover { border-color: var(--accent); background: #210b10; }
 .button:disabled { cursor: wait; opacity: .65; }
-.brand { display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 24px; font-weight: 700; line-height: 32px; white-space: nowrap; }
+.brand { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-height: 44px; }
+.brand-logo { width: 112px; height: auto; }
 .site-header { height: 72px; border-bottom: 1px solid var(--border); }
 .header-inner { position: relative; height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .site-nav { display: flex; align-items: center; justify-content: center; gap: 16px; }
@@ -70,6 +70,8 @@ input, select { caret-color: var(--accent); }
 .hero h1 span, .applied h2 span { display: block; }
 .hero-description { font-size: 18px; line-height: 28px; }
 .hero-actions { display: flex; align-items: center; gap: 16px; width: 100%; }
+/* Center Tajawal's visible glyphs within the line box without moving the arrow. */
+.hero-actions .button-label { transform: translateY(3px); }
 .hero-primary { width: 174px; }
 .hero-secondary { width: 202px; }
 .hero-note { font-size: 14px; font-weight: 500; line-height: 20px; color: var(--secondary); }
@@ -88,8 +90,10 @@ input, select { caret-color: var(--accent); }
 .section-heading h2 { font-size: 36px; line-height: 48px; }
 .paths { padding-block: 64px 48px; }
 .paths-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 32px; }
-.course-card { display: flex; flex-direction: column; justify-content: space-between; align-items: start; gap: 8px; min-width: 0; min-height: 220px; padding: 23px; border: 1px solid var(--border); border-radius: var(--radius); background: linear-gradient(150.6978deg, #16191b 0%, #0c0e10 76.923%); }
-.course-featured { padding: 22px; border: 2px solid var(--accent); background: linear-gradient(150.6978deg, #291013 0%, #0c0e10 76.923%); box-shadow: 0 0 16px #ff203524; }
+.course-card { --course-gradient-angle: 150.6978deg; display: flex; flex-direction: column; justify-content: space-between; align-items: start; gap: 8px; min-width: 0; min-height: 220px; padding: 23px; border: 1px solid var(--border); border-radius: var(--radius); background: linear-gradient(var(--course-gradient-angle), #16191b 0%, #0c0e10 76.923%); transition: border-color 180ms var(--ease), box-shadow 180ms var(--ease); }
+@media (hover: hover) and (pointer: fine) {
+  .course-card:hover { border-color: var(--accent); background-image: linear-gradient(var(--course-gradient-angle), #291013 0%, #0c0e10 76.923%); box-shadow: 0 0 16px #ff203524; }
+}
 .course-number { font-size: 16px; line-height: 24px; color: var(--secondary); font-variant-numeric: tabular-nums; }
 .course-body { display: flex; align-items: center; gap: 16px; width: 100%; }
 .icon-tile { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 64px; height: 64px; border-radius: var(--radius); background: linear-gradient(123.6901deg, #38101a 0%, #170c11 76.923%); }
@@ -172,7 +176,6 @@ input, select { caret-color: var(--accent); }
 }
 @media (max-width: 1023px) {
   .container { width: calc(100% - 64px); }
-  .brand { font-size: 22px; line-height: 30px; }
   .menu-toggle:not([hidden]) { display: flex; }
   .site-nav { position: absolute; z-index: 5; top: 71px; inset-inline: 0; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 8px; border: 1px solid var(--border); border-radius: var(--control-radius); background: var(--background); }
   .site-nav.is-open { display: flex; }
@@ -194,8 +197,7 @@ input, select { caret-color: var(--accent); }
   .section-heading h2 { font-size: 32px; line-height: 44px; }
   .paths { padding-block: 48px 32px; }
   .paths-grid { margin-top: 24px; }
-  .course-card { min-height: 248px; background-image: linear-gradient(132.4266deg, #16191b 0%, #0c0e10 76.923%); }
-  .course-featured { background-image: linear-gradient(132.4266deg, #291013 0%, #0c0e10 76.923%); }
+  .course-card { --course-gradient-angle: 132.4266deg; min-height: 248px; }
   .applied { display: flex; flex-direction: column; align-items: stretch; gap: 24px; padding-block: 32px 24px; }
   .applied h2 { font-size: 32px; line-height: 44px; }
   .security-visual { height: 320px; }
@@ -220,8 +222,7 @@ input, select { caret-color: var(--accent); }
   .container { width: calc(100% - 32px); }
   .site-header { height: 64px; }
   .header-inner { gap: 16px; }
-  .icon-brand { width: 28px; height: 28px; --icon-scale: .5833333333; }
-  .header-inner .brand { gap: 8px; }
+  .brand-logo { width: 96px; }
   .header-register { display: none; }
   .site-nav { top: 63px; }
   .hero-inner { display: flex; flex-direction: column; align-items: stretch; gap: 24px; min-height: 760px; padding-block: 32px; }
@@ -239,8 +240,7 @@ input, select { caret-color: var(--accent); }
   .section-heading h2 { font-size: 28px; line-height: 38px; }
   .paths { padding-block: 40px 24px; }
   .paths-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
-  .course-card { padding: 19px; background-image: linear-gradient(133.9013deg, #16191b 0%, #0c0e10 76.923%); }
-  .course-featured { padding: 18px; background-image: linear-gradient(133.9013deg, #291013 0%, #0c0e10 76.923%); }
+  .course-card { --course-gradient-angle: 133.9013deg; padding: 19px; }
   .applied { padding-block: 32px 16px; }
   .applied h2 { font-size: 28px; line-height: 38px; }
   .security-visual { height: 280px; }

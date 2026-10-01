@@ -94,10 +94,10 @@ components:
     textColor: "{colors.text}"
     rounded: "{rounded.radius}"
     padding: "23px"
-  course-card-featured:
+  course-card-hover:
     textColor: "{colors.text}"
     rounded: "{rounded.radius}"
-    padding: "22px"
+    padding: "23px"
   navigation:
     textColor: "{colors.secondary}"
     typography: "{typography.body-small}"
@@ -156,7 +156,7 @@ Recurring gaps are (8, 12, 16, 24, 32px); larger section spacing uses (40, 48, 6
 
 ## Elevation & Depth
 
-Depth comes mainly from subtle dark gradients, fine borders and the original artwork. Only primary buttons and the featured course use red glows: (0 0 12px #ff203538) and (0 0 16px #ff203524), respectively. Other panels remain flat. Course, icon-tile and FAQ gradients appear in the sidecar snippets; source CSS preserves every responsive gradient declaration.
+Depth comes mainly from subtle dark gradients, fine borders and the original artwork. Only primary buttons and hovered course cards use red glows: (0 0 12px #ff203538) and (0 0 16px #ff203524), respectively. Other panels remain flat. Course, icon-tile and FAQ gradients appear in the sidecar snippets; source CSS preserves every responsive gradient angle.
 
 ## Shapes
 
@@ -170,13 +170,15 @@ Primary buttons have a red fill, fine matching border and minimum height (48px);
 
 ### Cards / Containers
 
-Course cards use dark diagonal gradients and a fine border. The first course has a stronger red border and subtle glow. Course actions have a minimum target height (24px); selecting one fills the matching form option and focuses the name field.
+Course cards use dark diagonal gradients and a fine border. Every card gains a red border, tinted gradient and subtle glow only during mouse hover, then returns to its neutral style when the pointer leaves. Border width and padding stay constant to avoid movement, and touch devices keep the neutral card style. Course actions have a minimum target height (24px); selecting one fills the matching form option and focuses the name field.
 
 ### Inputs / Fields
 
 Fields are dark raised surfaces with leading icons and a fine border. Focus adds a red border and outline; errors add text beneath the field and `aria-invalid`. Email entry uses LTR characters with right alignment. With the endpoint empty, valid submission shows honest unavailable feedback and performs no POST or persistence.
 
 ### Navigation
+
+The header and footer use the user-supplied Vision 3020 logo with its navy lettering changed to white, its red artwork retained and a transparent background. The image retains its intrinsic aspect ratio at (112px) wide, reducing to (96px) on mobile. Logo links return to the page top and retain the visible keyboard focus outline.
 
 Desktop links are muted, with red hover/current states. Tablet and mobile use a compact menu with a (44px) toggle, expanded-state labeling and Escape dismissal. A visible keyboard outline uses the text color at (2px) with a (5px) offset; a skip link leads to main content.
 

@@ -25,6 +25,8 @@ Implement the supplied Arabic cybersecurity training landing page from Figma in 
 
 The supplied Figma design is the visual authority. Preserve its content, Tajawal typeface, dark surfaces, red accents, illustrations and icons.
 
+The user subsequently supplied `assets/VISION 3020.png` and requested it as the site logo, with its dark lettering changed to white, its red artwork retained and no white background. It replaces the header/footer shield and wordmark and serves as the favicon; the rest of the supplied Figma direction remains in effect.
+
 ## Evidence on Hand
 
 Figma file `vdsTI7SfNaXE4DK90SwQlS`, page `0:1`: desktop `2:47`, tablet `28:241`, mobile `28:361`. Local original assets are in `assets/`; reference screenshots are in `.impeccable/references/`.
