@@ -66,7 +66,7 @@ input, select { caret-color: var(--accent); }
 .hero { overflow: clip; }
 .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: center; min-height: 560px; padding-block: 40px; }
 .hero-copy { display: flex; flex-direction: column; align-items: start; gap: 20px; min-width: 0; }
-.hero h1 { font-size: 56px; font-weight: 800; line-height: 72px; text-wrap: balance; }
+.hero h1 { font-size: 48px; font-weight: 800; line-height: 62px; text-wrap: balance; }
 .hero h1 span, .applied h2 span { display: block; }
 .hero-description { font-size: 18px; line-height: 28px; }
 .hero-actions { display: flex; align-items: center; gap: 16px; width: 100%; }
@@ -192,7 +192,7 @@ input, select { caret-color: var(--accent); }
 
 @media (max-width: 1100px) and (min-width: 1024px) {
   .site-nav { gap: 4px; }
-  .hero h1 { font-size: 48px; line-height: 64px; }
+  .hero h1 { font-size: 42px; line-height: 56px; }
   .hero-image { left: -50px; width: 550px; height: 413px; top: 30px; }
   .visual-badge-protection { left: auto; right: 12px; }
 }
@@ -205,7 +205,7 @@ input, select { caret-color: var(--accent); }
   .nav-link:hover { background: var(--raised); }
   .hero-inner { gap: 24px; min-height: 448px; padding-block: 32px; }
   .hero-copy { gap: 16px; }
-  .hero h1 { font-size: 44px; line-height: 56px; }
+  .hero h1 { font-size: 38px; line-height: 50px; }
   .hero-actions { gap: 12px; }
   .hero-primary { width: 148px; padding-inline: 11px; }
   .hero-secondary { width: 168px; padding-inline: 11px; }
@@ -250,7 +250,7 @@ input, select { caret-color: var(--accent); }
   .header-register { display: none; }
   .site-nav { top: 63px; }
   .hero-inner { display: flex; flex-direction: column; align-items: stretch; gap: 24px; min-height: 760px; padding-block: 32px; }
-  .hero h1 { font-size: 40px; line-height: 52px; }
+  .hero h1 { font-size: 34px; line-height: 46px; }
   .hero-description { font-size: 16px; line-height: 26px; }
   .hero-actions { flex-direction: column; gap: 12px; align-items: stretch; }
   .hero-primary, .hero-secondary { width: 100%; }
@@ -288,7 +288,7 @@ input, select { caret-color: var(--accent); }
   .footer-links { max-width: 100%; }
 }
 @media (max-width: 359px) {
-  .hero h1 { font-size: 36px; line-height: 48px; }
+  .hero h1 { font-size: 30px; line-height: 42px; }
   .hero-description br { display: none; }
   .course-body { gap: 12px; }
   .course-copy h3 { font-size: 22px; line-height: 30px; }
