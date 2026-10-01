@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T09:46:31.567Z",
+  "title": "Design System: الأمن السيبراني",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Midnight canvas",
+        "tonalRamp": [
+          "oklch(15.00% 0.00483 262.80)",
+          "oklch(26.43% 0.00483 262.80)",
+          "oklch(37.86% 0.00483 262.80)",
+          "oklch(49.29% 0.00483 262.80)",
+          "oklch(60.71% 0.00483 262.80)",
+          "oklch(72.14% 0.00483 262.80)",
+          "oklch(83.57% 0.00483 262.80)",
+          "oklch(95.00% 0.00483 262.80)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.00786 274.58)",
+          "oklch(26.43% 0.00786 274.58)",
+          "oklch(37.86% 0.00786 274.58)",
+          "oklch(49.29% 0.00786 274.58)",
+          "oklch(60.71% 0.00786 274.58)",
+          "oklch(72.14% 0.00786 274.58)",
+          "oklch(83.57% 0.00786 274.58)",
+          "oklch(95.00% 0.00786 274.58)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Soft white",
+        "tonalRamp": [
+          "oklch(15.00% 0.00264 286.35)",
+          "oklch(26.43% 0.00264 286.35)",
+          "oklch(37.86% 0.00264 286.35)",
+          "oklch(49.29% 0.00264 286.35)",
+          "oklch(60.71% 0.00264 286.35)",
+          "oklch(72.14% 0.00264 286.35)",
+          "oklch(83.57% 0.00264 286.35)",
+          "oklch(95.00% 0.00264 286.35)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Muted gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.00986 286.17)",
+          "oklch(26.43% 0.00986 286.17)",
+          "oklch(37.86% 0.00986 286.17)",
+          "oklch(49.29% 0.00986 286.17)",
+          "oklch(60.71% 0.00986 286.17)",
+          "oklch(72.14% 0.00986 286.17)",
+          "oklch(83.57% 0.00986 286.17)",
+          "oklch(95.00% 0.00986 286.17)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Signal red",
+        "tonalRamp": [
+          "oklch(15.00% 0.24656 24.67)",
+          "oklch(26.43% 0.24656 24.67)",
+          "oklch(37.86% 0.24656 24.67)",
+          "oklch(49.29% 0.24656 24.67)",
+          "oklch(60.71% 0.24656 24.67)",
+          "oklch(72.14% 0.24656 24.67)",
+          "oklch(83.57% 0.24656 24.67)",
+          "oklch(95.00% 0.24656 24.67)"
+        ]
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Deep red",
+        "tonalRamp": [
+          "oklch(15.00% 0.11595 19.25)",
+          "oklch(26.43% 0.11595 19.25)",
+          "oklch(37.86% 0.11595 19.25)",
+          "oklch(49.29% 0.11595 19.25)",
+          "oklch(60.71% 0.11595 19.25)",
+          "oklch(72.14% 0.11595 19.25)",
+          "oklch(83.57% 0.11595 19.25)",
+          "oklch(95.00% 0.11595 19.25)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Panel charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.01088 271.08)",
+          "oklch(26.43% 0.01088 271.08)",
+          "oklch(37.86% 0.01088 271.08)",
+          "oklch(49.29% 0.01088 271.08)",
+          "oklch(60.71% 0.01088 271.08)",
+          "oklch(72.14% 0.01088 271.08)",
+          "oklch(83.57% 0.01088 271.08)",
+          "oklch(95.00% 0.01088 271.08)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Hover red",
+        "tonalRamp": [
+          "oklch(15.00% 0.22139 24.56)",
+          "oklch(26.43% 0.22139 24.56)",
+          "oklch(37.86% 0.22139 24.56)",
+          "oklch(49.29% 0.22139 24.56)",
+          "oklch(60.71% 0.22139 24.56)",
+          "oklch(72.14% 0.22139 24.56)",
+          "oklch(83.57% 0.22139 24.56)",
+          "oklch(95.00% 0.22139 24.56)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "primary",
+        "displayName": "Dark red hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.03835 7.14)",
+          "oklch(26.43% 0.03835 7.14)",
+          "oklch(37.86% 0.03835 7.14)",
+          "oklch(49.29% 0.03835 7.14)",
+          "oklch(60.71% 0.03835 7.14)",
+          "oklch(72.14% 0.03835 7.14)",
+          "oklch(83.57% 0.03835 7.14)",
+          "oklch(95.00% 0.03835 7.14)"
+        ]
+      },
+      "error": {
+        "role": "primary",
+        "displayName": "Feedback pink",
+        "tonalRamp": [
+          "oklch(15.00% 0.13146 14.72)",
+          "oklch(26.43% 0.13146 14.72)",
+          "oklch(37.86% 0.13146 14.72)",
+          "oklch(49.29% 0.13146 14.72)",
+          "oklch(60.71% 0.13146 14.72)",
+          "oklch(72.14% 0.13146 14.72)",
+          "oklch(83.57% 0.13146 14.72)",
+          "oklch(95.00% 0.13146 14.72)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero heading; responsive size overrides are recorded in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section and registration headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Course titles and desktop brand."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Main copy and FAQ questions."
+      },
+      "body-small": {
+        "displayName": "Supporting body",
+        "purpose": "Course descriptions, answers, fields and navigation."
+      },
+      "label": {
+        "displayName": "Action label",
+        "purpose": "Button labels."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Badges, course actions and small notes."
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-glow",
+        "value": "0 0 12px #ff203538",
+        "purpose": "Primary buttons only."
+      },
+      {
+        "name": "featured-glow",
+        "value": "0 0 16px #ff203524",
+        "purpose": "Featured course card only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Color, border and FAQ icon transitions."
+      },
+      {
+        "name": "state-duration",
+        "value": "180ms",
+        "purpose": "Implemented state-transition duration; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop-narrow-max",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1023px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "639px"
+      },
+      {
+        "name": "small-mobile-max",
+        "value": "359px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Red action with the original glow and arrow.",
+      "html": "<button class=\"ds-button\" dir=\"rtl\" type=\"button\">ابدأ رحلتك<span class=\"ds-icon\" aria-hidden=\"true\"><svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40 24H8M20 36L8 24L20 12\" stroke=\"var(--text)\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button>",
+      "css": ".ds-button{display:inline-flex;gap:12px;align-items:center;justify-content:center;min-height:48px;padding:11px 19px;border:1px solid var(--accent);border-radius:var(--control-radius);background:var(--accent);box-shadow:0 0 12px #ff203538;color:var(--text);font:700 16px/24px Tajawal,sans-serif;text-decoration:none;cursor:pointer;transition:background-color 180ms var(--ease),border-color 180ms var(--ease)}.ds-button:hover{background-color:#dc182c;border-color:#dc182c}.ds-button:disabled{cursor:wait;opacity:.65}.ds-icon,.ds-faq-plus{position:relative;display:inline-block;width:20px;height:20px;flex:0 0 auto}.ds-icon svg,.ds-faq-plus svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(.4166666667)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-course-link:focus-visible,.ds-faq summary:focus-visible{outline:2px solid var(--text);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-field,.ds-nav a,.ds-faq-plus{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined exploration action.",
+      "html": "<a class=\"ds-button ds-button-secondary\" href=\"#paths\" dir=\"rtl\">استكشف المسارات</a>",
+      "css": ".ds-button{display:inline-flex;gap:12px;align-items:center;justify-content:center;min-height:48px;padding:11px 19px;border:1px solid var(--accent);border-radius:var(--control-radius);background:var(--accent);box-shadow:0 0 12px #ff203538;color:var(--text);font:700 16px/24px Tajawal,sans-serif;text-decoration:none;cursor:pointer;transition:background-color 180ms var(--ease),border-color 180ms var(--ease)}.ds-button:hover{background-color:#dc182c;border-color:#dc182c}.ds-button:disabled{cursor:wait;opacity:.65}.ds-button-secondary{background:var(--background);border-color:var(--accent-dark);box-shadow:none}.ds-button-secondary:hover{background:#210b10;border-color:var(--accent)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-course-link:focus-visible,.ds-faq summary:focus-visible{outline:2px solid var(--text);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-field,.ds-nav a,.ds-faq-plus{transition:none}}"
+    },
+    {
+      "name": "Name Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Raised field with original outline icon, focus and error treatment.",
+      "html": "<label class=\"ds-field\" dir=\"rtl\" aria-label=\"الاسم الكامل\"><span class=\"ds-icon\" aria-hidden=\"true\"><svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 22C28.4183 22 32 18.4183 32 14C32 9.58172 28.4183 6 24 6C19.5817 6 16 9.58172 16 14C16 18.4183 19.5817 22 24 22Z M8 44V38C8 30 40 30 40 38V44\" stroke=\"var(--text)\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><input type=\"text\" placeholder=\"الاسم الكامل\" autocomplete=\"name\" required></label>",
+      "css": ".ds-field{display:flex;align-items:center;gap:12px;height:48px;padding:0 15px;background:var(--raised);border:1px solid var(--border);border-radius:var(--control-radius);color:var(--text);transition:border-color 180ms var(--ease)}.ds-field>.ds-icon{opacity:.7}.ds-field:focus-within{border-color:var(--accent);outline:1px solid var(--accent);outline-offset:2px}.ds-field:has([aria-invalid=true]){border-color:var(--accent)}.ds-field input{width:100%;min-width:0;height:100%;padding:0;border:0;outline:0;background:transparent;color:inherit;font:400 16px/24px Tajawal,sans-serif;text-align:start;caret-color:var(--accent)}.ds-field input::placeholder{color:var(--secondary);opacity:1}.ds-field-error{margin-top:6px;color:#ff929c;font:400 14px/22px Tajawal,sans-serif}.ds-icon,.ds-faq-plus{position:relative;display:inline-block;width:20px;height:20px;flex:0 0 auto}.ds-icon svg,.ds-faq-plus svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(.4166666667)}@media(prefers-reduced-motion:reduce){.ds-button,.ds-field,.ds-nav a,.ds-faq-plus{transition:none}}"
+    },
+    {
+      "name": "Section Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Pinned Figma section marker; informational, not a filter.",
+      "html": "<span class=\"ds-badge\" dir=\"rtl\">مسارات التعلّم</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:4px 16px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);font:500 14px/20px Tajawal,sans-serif;white-space:nowrap}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Muted links with red current and hover states.",
+      "html": "<nav class=\"ds-nav\" dir=\"rtl\" aria-label=\"التنقل الرئيسي\"><a class=\"ds-active\" href=\"#home\" aria-current=\"location\">الرئيسية</a><a href=\"#paths\">المسارات</a><a href=\"#faq\">الأسئلة الشائعة</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:center;gap:16px}.ds-nav a{display:flex;align-items:center;min-height:44px;padding-inline:8px;color:var(--secondary);font:400 16px/24px Tajawal,sans-serif;text-decoration:none;transition:color 180ms var(--ease)}.ds-nav a:hover,.ds-nav a.ds-active{color:var(--accent)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-course-link:focus-visible,.ds-faq summary:focus-visible{outline:2px solid var(--text);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-field,.ds-nav a,.ds-faq-plus{transition:none}}"
+    },
+    {
+      "name": "Course Card",
+      "kind": "card",
+      "refersTo": "course-card",
+      "description": "Dark course panel with a numbered path, icon and action.",
+      "html": "<article class=\"ds-card\" dir=\"rtl\"><span class=\"ds-card-number\" aria-hidden=\"true\">01</span><div class=\"ds-card-body\"><span class=\"ds-card-tile\"><span class=\"ds-card-icon\" aria-hidden=\"true\"><svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 6L8 12V24C8 34 24 42 24 42C24 42 40 34 40 24V12L24 6Z M24 12L14 16V24C14 30 24 36 24 36\" stroke=\"var(--accent)\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></span><div><h3>أساسيات الأمن السيبراني</h3><p>ابدأ بفهم المخاطر وطرق الحماية.</p></div></div><a class=\"ds-course-link\" href=\"#registration\"><span>استكشف المسار</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" aria-hidden=\"true\"><path d=\"M15 9H3M7.5 13.5L3 9L7.5 4.5\" stroke=\"var(--accent)\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></article>",
+      "css": ".ds-card{display:flex;flex-direction:column;align-items:start;justify-content:space-between;gap:8px;min-height:220px;padding:23px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(150.6978deg,#16191b 0%,#0c0e10 76.923%);color:var(--text);font:400 16px/24px Tajawal,sans-serif}.ds-card-number{color:var(--secondary);font-variant-numeric:tabular-nums}.ds-card-body{display:flex;align-items:center;gap:16px}.ds-card-tile{display:flex;align-items:center;justify-content:center;width:64px;height:64px;flex:0 0 auto;border-radius:var(--radius);background:linear-gradient(123.6901deg,#38101a 0%,#170c11 76.923%)}.ds-card-icon{display:block;width:48px;height:48px}.ds-card h3{margin:0;font:700 24px/32px Tajawal,sans-serif}.ds-card p{margin:8px 0 0;color:var(--secondary)}.ds-course-link{display:inline-flex;align-items:center;gap:8px;min-height:24px;color:var(--accent);font:500 14px/20px Tajawal,sans-serif;text-decoration:none}.ds-course-link:hover span{text-decoration:underline}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-course-link:focus-visible,.ds-faq summary:focus-visible{outline:2px solid var(--text);outline-offset:5px}"
+    },
+    {
+      "name": "Featured Course Card",
+      "kind": "card",
+      "refersTo": "course-card-featured",
+      "description": "First course variant with the original red border and glow.",
+      "html": "<article class=\"ds-card ds-card-featured\" dir=\"rtl\"><span class=\"ds-card-number\" aria-hidden=\"true\">01</span><div class=\"ds-card-body\"><span class=\"ds-card-tile\"><span class=\"ds-card-icon\" aria-hidden=\"true\"><svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 6L8 12V24C8 34 24 42 24 42C24 42 40 34 40 24V12L24 6Z M24 12L14 16V24C14 30 24 36 24 36\" stroke=\"var(--accent)\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></span><div><h3>أساسيات الأمن السيبراني</h3><p>ابدأ بفهم المخاطر وطرق الحماية.</p></div></div><a class=\"ds-course-link\" href=\"#registration\"><span>استكشف المسار</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" aria-hidden=\"true\"><path d=\"M15 9H3M7.5 13.5L3 9L7.5 4.5\" stroke=\"var(--accent)\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></article>",
+      "css": ".ds-card{display:flex;flex-direction:column;align-items:start;justify-content:space-between;gap:8px;min-height:220px;padding:23px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(150.6978deg,#16191b 0%,#0c0e10 76.923%);color:var(--text);font:400 16px/24px Tajawal,sans-serif}.ds-card-number{color:var(--secondary);font-variant-numeric:tabular-nums}.ds-card-body{display:flex;align-items:center;gap:16px}.ds-card-tile{display:flex;align-items:center;justify-content:center;width:64px;height:64px;flex:0 0 auto;border-radius:var(--radius);background:linear-gradient(123.6901deg,#38101a 0%,#170c11 76.923%)}.ds-card-icon{display:block;width:48px;height:48px}.ds-card h3{margin:0;font:700 24px/32px Tajawal,sans-serif}.ds-card p{margin:8px 0 0;color:var(--secondary)}.ds-course-link{display:inline-flex;align-items:center;gap:8px;min-height:24px;color:var(--accent);font:500 14px/20px Tajawal,sans-serif;text-decoration:none}.ds-course-link:hover span{text-decoration:underline}.ds-card-featured{padding:22px;border:2px solid var(--accent);background:linear-gradient(150.6978deg,#291013 0%,#0c0e10 76.923%);box-shadow:0 0 16px #ff203524}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-course-link:focus-visible,.ds-faq summary:focus-visible{outline:2px solid var(--text);outline-offset:5px}"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "refersTo": "faq",
+      "description": "Native disclosure with a rotating plus and muted answer.",
+      "html": "<details class=\"ds-faq\" dir=\"rtl\"><summary><span>هل أحتاج خبرة سابقة؟</span><span class=\"ds-faq-plus\" aria-hidden=\"true\"><svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 10V38M10 24H38\" stroke=\"var(--text)\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></summary><p>يمكنك البدء بمسار أساسيات الأمن السيبراني لفهم المخاطر وطرق الحماية، ثم اختيار المجال الذي ترغب في التعمّق فيه.</p></details>",
+      "css": ".ds-faq{border:1px solid var(--border);border-radius:var(--control-radius);background:linear-gradient(175.4261deg,#151417 0%,#0d0f11 76.923%);color:var(--text);font-family:Tajawal,sans-serif}.ds-faq summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:62px;padding:11px 23px;cursor:pointer;font-size:18px;line-height:28px;list-style:none}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq summary::marker{content:''}.ds-faq summary:hover{color:var(--secondary)}.ds-faq-plus{transition:rotate 180ms var(--ease)}.ds-faq[open] .ds-faq-plus{rotate:45deg}.ds-faq>p{max-width:75ch;margin:0;padding:0 24px 24px;color:var(--secondary);font:400 16px/28px Tajawal,sans-serif}.ds-icon,.ds-faq-plus{position:relative;display:inline-block;width:20px;height:20px;flex:0 0 auto}.ds-icon svg,.ds-faq-plus svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(.4166666667)}.ds-button:focus-visible,.ds-nav a:focus-visible,.ds-course-link:focus-visible,.ds-faq summary:focus-visible{outline:2px solid var(--text);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-field,.ds-nav a,.ds-faq-plus{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The supplied Figma cybersecurity identity",
+    "overview": "A near-black canvas, vivid red accents and original red illustrations support a clear Arabic hierarchy. Tajawal, rounded panels and fine borders reproduce the supplied design. The implementation in `index.html`, `styles.css` and `script.js` is the recorded source of truth; the route's composition remains in `.impeccable/surfaces/landing.md`.",
+    "keyCharacteristics": [
+      "Arabic RTL reading order and start-aligned text.",
+      "Original illustrations and outline icons.",
+      "Dark tonal gradients with restrained red glows.",
+      "Rounded controls and pill-shaped section badges."
+    ],
+    "rules": [
+      {
+        "name": "The Reference Palette Rule",
+        "body": "Preserve the supplied palette; tonal-ramp previews in the sidecar are documentation aids, not additional implemented colors.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the supplied Tajawal family, palette and original assets.",
+      "**Do** use RTL layout and logical alignment while preserving readable email entry.",
+      "**Do** keep focus, field errors and unavailable submission feedback visible and accurate."
+    ],
+    "donts": [
+      "**Don't** substitute generic illustrations or modify original SVG root dimensions to fit a wrapper.",
+      "**Don't** introduce new accent families or broad card shadows.",
+      "**Don't** present registration as sent when no endpoint is configured."
+    ]
+  }
+}
